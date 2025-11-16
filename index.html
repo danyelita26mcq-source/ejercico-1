@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Astronomía Básica</title>
+</head>
+<body>
+  <h1>🌠 Ejercicios de Astronomía</h1>
+
+ 
+  <h2>1. Brillo Estelar</h2>
+  <input type="number" id="magnitud" placeholder="Magnitud">
+  <button onclick="ejercicioIF()">Clasificar</button>
+  <p id="resIF"></p>
+
+  <h2>2. Distancias Planetarias</h2>
+  <p>Escribe varias distancias separadas por comas (ej: 58,108,150)</p>
+  <input type="text" id="distancias">
+  <button onclick="ejercicioFOR()">Calcular promedio</button>
+  <p id="resFOR"></p>
+
+  <h2>3. Cráteres Lunares</h2>
+  <p>Escribe diámetros separados por comas (termina con 0, ej: 30,60,80,0)</p>
+  <input type="text" id="diametros">
+  <button onclick="ejercicioWHILE()">Contar cráteres grandes</button>
+  <p id="resWHILE"></p>
+
+  <h2>4. Cuerpo Celeste</h2>
+  <input type="number" id="codigo" placeholder="Código 1-5">
+  <button onclick="ejercicioSWITCH()">Identificar</button>
+  <p id="resSWITCH"></p>
+
+  <h2>5. Niveles de Luz</h2>
+  <p>Escribe valores separados por comas (termina con "no", ej: 10,3,7,no)</p>
+  <input type="text" id="valores">
+  <button onclick="ejercicioDOWHILE()">Registrar niveles</button>
+  <p id="resDO"></p>
+
+  <script src="Ejercicio1.js"></script>
+</body>
+</html>
